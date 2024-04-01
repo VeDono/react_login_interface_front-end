@@ -1,0 +1,162 @@
+@import '../../styles/mixins/fonts-mixins.scss';
+@import '../../styles/mixins/screen-mixins.scss';
+@import '../../styles/mixins/input-media-styles.scss';
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+
+  &__emailContainer {
+    margin-bottom: 25px;
+  }
+
+  &__emailWrongMessage {
+    opacity: 0;
+    z-index: -1;
+
+    margin-left: 10px;
+    position: absolute;
+
+    font-size: 12px;
+    color: #dd3e1e;
+
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(0px);
+
+    &--show {
+      opacity: 1;
+      transform: translateY(-16px);
+    }
+  }
+
+  &__passwordWrongMessage {
+    opacity: 0;
+    z-index: -1;
+
+    margin-left: 10px;
+    position: absolute;
+
+    font-size: 12px;
+    color: #dd3e1e;
+
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(0px);
+
+    &--show {
+      opacity: 1;
+      transform: translateY(-34px);
+    }
+  }
+
+  &__input {
+    max-width: 400px;
+    min-width: 400px;
+    height: 48px;
+
+    padding: 0px 12px 0px 12px;
+    border-radius: 6px;
+    border: 1.2px solid #D3D8DC;
+
+    &-email {
+      @include font-regular(15px);
+      line-height: 20px;
+      color: #060E1E;
+
+      &--wrong {
+        border: 1px solid #dd3e1e;
+      }
+    }
+
+    &-password {
+      &--wrong {
+        border: 1px solid #dd3e1e;
+      }
+    }
+
+    @include respond-to(480px) {
+      @include input-media-styles;
+    }
+  }
+
+  &__passwordContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    margin-bottom: 15px;
+
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    margin-top: -73px;
+    z-index: -2;
+    visibility: hidden;
+    
+
+    &--show {
+      opacity: 1;
+      margin-top: 0px;
+      z-index: 0;
+      visibility: visible;
+    }
+  }
+
+  &__eyeIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+
+    position: absolute;
+    right: 10px;
+    
+    cursor: pointer;
+  }
+
+  &__forgotPassword {
+    text-align: right;
+    @include font-medium(14px);
+    line-height: 20px;
+    color: #316FEA;
+    cursor: pointer;
+
+    margin-bottom: 30px;
+    margin-top: -35px;
+    transition: all 0.3s ease-in-out;
+    z-index: -3;
+    opacity: 0;
+    visibility: hidden;
+
+    &--show {
+      margin-top: 0px;
+      opacity: 1;
+      z-index: 0;
+      visibility: visible;
+    }
+  }
+
+  &__signUp {
+    text-align: center;
+    @include font-regular(14px);
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    &-link {
+      @include font-medium(14px);
+      color: #316FEA;
+      cursor: pointer;
+    }
+  }
+
+  &__btnSubmit {
+    height: 48px;
+    border-radius: 8px;
+    background-color: #316FEA;
+
+    color: #fff;
+    @include font-medium(16px);
+    line-height: 21px;
+
+    margin-bottom: 20px;
+  }
+}

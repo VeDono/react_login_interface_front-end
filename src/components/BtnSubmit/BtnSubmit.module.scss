@@ -1,0 +1,22 @@
+@import '../../styles/mixins/fonts-mixins.scss';
+
+.btnSubmit {
+  height: 48px;
+  border-radius: 8px;
+  background-color: #316FEA;
+
+  color: #fff;
+  @include font-medium(16px);
+  line-height: 21px;
+
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translate(0px, -2px);
+  }
+
+  &:active {
+    transform: translate(0px, 0.5px);
+  }
+}

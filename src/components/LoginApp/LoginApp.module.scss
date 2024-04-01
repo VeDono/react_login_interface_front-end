@@ -1,0 +1,13 @@
+@import '../../styles/mixins/fonts-mixins.scss';
+
+.loginApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

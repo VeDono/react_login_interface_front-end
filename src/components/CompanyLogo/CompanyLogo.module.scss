@@ -1,0 +1,11 @@
+@import '../../styles/mixins/screen-mixins.scss';
+
+.companyLogo {
+  margin-top: 180px;
+  margin-bottom: 80px;
+  transition: 0.3s;
+
+  @include respond-to(480px) {
+    margin-top: 50px;
+  }
+}
