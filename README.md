@@ -1,5 +1,10 @@
 # Test task in Qencode
 
+## Demo
+
+[GitHub Pages Demo](https://vedono.github.io/react_login_interface_front-end/)
+[Netlify Demo](https://vedono-qencode-login-interface.netlify.app/)
+
 ## Description
 
 This is the frontend part of a login interface. The application allows users to try login and restore work account.
