@@ -2,8 +2,8 @@
 
 ## Demo
 
-[GitHub Pages Demo](https://vedono.github.io/react_login_interface_front-end/)
-[Netlify Demo](https://vedono-qencode-login-interface.netlify.app/)
+- [GitHub Pages Demo](https://vedono.github.io/react_login_interface_front-end/)
+- [Netlify Demo](https://vedono-qencode-login-interface.netlify.app/)
 
 ## Description
 
