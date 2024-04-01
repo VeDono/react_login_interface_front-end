@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.148024ac.css",
+    "main.js": "./static/js/main.f063e791.js",
+    "static/media/BasisGrotesquePro-Regular.woff": "./static/media/BasisGrotesquePro-Regular.4bdfc6f1af525ad5b0a6.woff",
+    "static/media/BasisGrotesquePro-Medium.woff": "./static/media/BasisGrotesquePro-Medium.1f7543d7a23ccc00f345.woff",
+    "static/media/BasisGrotesquePro-Bold.woff": "./static/media/BasisGrotesquePro-Bold.acb6095a848c53a97242.woff",
+    "static/media/BasisGrotesquePro-Regular.woff2": "./static/media/BasisGrotesquePro-Regular.fc5973283fa334f121ea.woff2",
+    "static/media/BasisGrotesquePro-Medium.woff2": "./static/media/BasisGrotesquePro-Medium.3a4f1d525cbb8b808873.woff2",
+    "static/media/BasisGrotesquePro-Bold.woff2": "./static/media/BasisGrotesquePro-Bold.039c1f6c058416bddb55.woff2",
+    "static/media/qencode-logo.webp": "./static/media/qencode-logo.9d07769983f257b38447.webp",
+    "static/media/input-eye-icon-active.svg": "./static/media/input-eye-icon-active.03425dc8951c823b6198fe38626f0ecb.svg",
+    "static/media/input-eye-icon.svg": "./static/media/input-eye-icon.daf8b2a7168b7215a0b30a89a02a9240.svg",
+    "index.html": "./index.html",
+    "main.148024ac.css.map": "./static/css/main.148024ac.css.map",
+    "main.f063e791.js.map": "./static/js/main.f063e791.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.148024ac.css",
+    "static/js/main.f063e791.js"
+  ]
+}
